@@ -1,0 +1,18 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: #132133;
+    color: #d9f3f1;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+#app {
+    background: #fff;
+    border-radius: .4rem;
+    padding: 1.5rem 0rem;
+    box-shadow: 2px 8px 11px rgba(0, 0, 0, 0.308);
+}
