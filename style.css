@@ -48,11 +48,11 @@ form button {
     outline: none;
     width: max-content;
     cursor: pointer;
-    background: linear-gradient(to right, rgb(0, 110, 255),rgba(0, 153, 255, 0.932));
+    background: linear-gradient(to right, rgb(255, 115, 0),rgba(255, 51, 0, 0.932));
     transition: background-color 300ms ease-out;
 }
 form button:hover{
-    background: linear-gradient(to right, rgb(0, 94, 216),rgba(0, 129, 214, 0.932));
+    background: linear-gradient(to right, rgb(209, 94, 0), rgba(218, 32, 0, 0.932));                            
 }
 
 main {
@@ -67,7 +67,7 @@ p:nth-child(1){
 }
 
 p{
-    color: #4091dd;
+    color: #ff5100;
     font-size: 1.1rem;
     margin: 0.6rem 0;
 }
