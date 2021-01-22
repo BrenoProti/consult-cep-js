@@ -41,17 +41,18 @@ form input::placeholder {
 
 form button {
     padding: 0.5rem 1rem;
+    font-size: 1rem;
     color: #fff;
     border-radius: 1rem;
     border: none;
     outline: none;
     width: max-content;
     cursor: pointer;
-    background: linear-gradient(to right, rgb(111, 0, 255),rgba(247, 0, 255, 0.932));
+    background: linear-gradient(to right, rgb(0, 110, 255),rgba(0, 153, 255, 0.932));
     transition: background-color 300ms ease-out;
 }
 form button:hover{
-    background: linear-gradient(to right, rgb(89, 0, 206),rgba(194, 0, 201, 0.932));
+    background: linear-gradient(to right, rgb(0, 94, 216),rgba(0, 129, 214, 0.932));
 }
 
 main {
