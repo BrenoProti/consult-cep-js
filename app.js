@@ -23,14 +23,17 @@ function run(event) {
         createLine(response.data.localidade + ' - ' + response.data.uf);
     })
     .catch(function(error){
+        content.innerHTML='';
         console.log(error)
+        createLine("Ops.. Algo deu errado!");
+        createLine("Verifique o CEP digitado e tente novamente...")
     })
 }
 
 function createLine(text) {
-        var line = document.createElement('p');
-        var text = document.createTextNode(text)
+    var line = document.createElement('p');
+    var text = document.createTextNode(text)
 
-        line.appendChild(text)
-        content.appendChild(line)
+    line.appendChild(text)
+    content.appendChild(line)
 }
